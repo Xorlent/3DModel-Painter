@@ -10,20 +10,21 @@ The coding workflow followed this basic pattern:
 3. Clear and repeat the prompt until a satisfactory code scaffold has been built.
 4. Assess the code for errors or problematic behavior and ask the LLM to fix these areas of the application.
 5. Continue to fine-tune the application until the desired outcome has been reached.
-   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over, as this is a good indicator that the LLM does not fully understand how to generate the desired outcome.
+   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over, as this is a good indication that the LLM does not fully understand how to generate the desired outcome.
 ## Operation
 1. Download the .ZIP file
-2. Extract the .ZIP file to a desired folder.  If you are on Windows, before extracting be sure to right-click the ZIP file, select "Properties" and click "Unblock."
+2. Extract the .ZIP file to the desired folder.  If you are on Windows, before extracting be sure to right-click the ZIP file, select "Properties" and click "Unblock."
 3. Host the files using a local web server.
    - On Mac you can just open a terminal window, navigate to the 3D Model Painter folder and type:  
      ```python3 -m http.server 8080```
 4. Open a web browser and navigate to the website.  Example:  http://localhost:8080/index.html
 5. Click "Choose file" and select a GLTF 3D model file.
-6. Click and drag to rotate the model.
-7. On the right, select a color or a texture map to begin painting faces of the model.  Once you have a color or texture map selected, click "Toggle Face Paint Mode"
+   - I included some 3D models you can play with in the /3dmodels folder.
+7. Click and drag to rotate the model.
+8. On the right, select a color or a texture map to begin painting faces of the model.  Once you have a color or texture map selected, click "Toggle Face Paint Mode"
    - When "Toggle Face Paint Mode" is red, you are painting
    - When "Toggle Face Paint Mode" is green, you can rotate the model
-9. I included some 3D models you can play with in the /3dmodels folder.  Texture map files can be any common image file format (PNG, JPG, SVG, WEBP), repeating patterns are best.
+9. Texture map files can be any common image file format (PNG, JPG, SVG, WEBP), repeating patterns are best.
 ## Lessons Learned
 1. It was relatively painless.  From start to finish I was able to generate this project in about 2 hours.
    - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
