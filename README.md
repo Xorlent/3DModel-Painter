@@ -9,7 +9,7 @@ The coding workflow followed this basic pattern:
 3. Clear and repeat the prompt until a satisfactory code scaffold has been built.
 4. Assess the code for errors or problematic behavior and ask the LLM to fix these areas of the application.
 5. Continue to fine-tune the application until the desired outcome has been reached.
-   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over, as this is a good indicator that the LLM does not fully understand how to generate the desired output.
+   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over, as this is a good indicator that the LLM does not fully understand how to generate the desired outcome.
 ## Operation
 1. Download the .ZIP file
 2. Extract the .ZIP file to a desired folder.  If you are on Windows, before extracting be sure to right-click the ZIP file, select "Properties" and click "Unblock."
@@ -28,5 +28,7 @@ The coding workflow followed this basic pattern:
   - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
 2. I think LLM-based code generation has now reached the point of being truly useful.  Some examples where I think it can be hugely helpful, especially to those of us that do not code for a living:
     - Refactoring spaghetti code.  I tend to start simple and iterate rapidly on all of my programming projects because I want working code in the shortest amount of time.  Maintainability is not high on my list of priorities; I want to implement my requirement and move on.  Is this painful later when implementing enhancements?  You bet!
+    - Decomposing your project into very well-defined functions, classes, and methods, and asking the LLM to generate them individually.
+    - Generating example code for APIs and libraries you need to learn.  I have found the example code to be far superior than what is found on the open web in programming forums.
     - 
 3. The most remarkable feature of LLM-based code editing is *actually useful* code completion/recommendation.  This is a feature that was promised to be a game-changer 10 years ago but more often than not, got in the way of a programmer's flow.  The current LLM code editor predition and recommendation accuracy capabilities are scary good!
