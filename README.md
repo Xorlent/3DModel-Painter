@@ -22,7 +22,7 @@ The coding workflow followed this basic pattern:
 7. On the right, select a color or a texture map to begin painting faces of the model.  Once you have a color or texture map selected, click "Toggle Face Paint Mode"
    - When "Toggle Face Paint Mode" is red, you are painting
    - When "Toggle Face Paint Mode" is green, you can rotate the model
-9. I included some 3D models to play with.  Texture map files can be any common image file format (PNG, JPG, SVG), repeating patterns are best.
+9. I included some 3D models to play with.  Texture map files can be any common image file format (PNG, JPG, SVG, WEBP), repeating patterns are best.
 ## Lessons Learned
 1. It was relatively painless.  From start to finish I was able to generate this project in about 2 hours.
   - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
@@ -30,5 +30,6 @@ The coding workflow followed this basic pattern:
     - Refactoring spaghetti code.  I tend to start simple and iterate rapidly on all of my programming projects because I want working code in the shortest amount of time.  Maintainability is not high on my list of priorities; I want to implement my requirement and move on.  Is this painful later when implementing enhancements?  You bet!
     - Decomposing your project into very well-defined functions, classes, and methods, and asking the LLM to generate them individually.
     - Generating example code for APIs and libraries you need to learn.  I have found the example code to be far superior than what is found on the open web in programming forums.
-    - 
+    - Helping assess sections of code where a persistent bug could benefit from an independent review.
+    - Improving error handling and helping to build test cases for existing code.
 3. The most remarkable feature of LLM-based code editing is *actually useful* code completion/recommendation.  This is a feature that was touted as a game-changer 10 years ago but more often than not, got in the way of a programmer's flow.  The current LLM code editor predition and recommendation accuracy capabilities are scary good!
