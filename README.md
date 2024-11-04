@@ -23,7 +23,7 @@ The coding workflow followed this basic pattern:
 7. On the right, select a color or a texture map to begin painting faces of the model.  Once you have a color or texture map selected, click "Toggle Face Paint Mode"
    - When "Toggle Face Paint Mode" is red, you are painting
    - When "Toggle Face Paint Mode" is green, you can rotate the model
-9. I included some 3D models to play with.  Texture map files can be any common image file format (PNG, JPG, SVG, WEBP), repeating patterns are best.
+9. I included some 3D models you can play with in the /3dmodels folder.  Texture map files can be any common image file format (PNG, JPG, SVG, WEBP), repeating patterns are best.
 ## Lessons Learned
 1. It was relatively painless.  From start to finish I was able to generate this project in about 2 hours.
    - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
