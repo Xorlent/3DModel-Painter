@@ -1,6 +1,7 @@
 # 3DModel-Painter
 ## Purpose
 This demo project was an experiment to explore the capabilities of the latest iteration of LLM-based code editors.
+![3DModel Painter Screenshot](https://github.com/Xorlent/3DModel-Painter/blob/main/3DPainter.jpg)
 ## Background
 _The entire codebase was powered by LLM generation only.  No fixes or hand-coding was performed to get this application to its current state._  
 The coding workflow followed this basic pattern:
