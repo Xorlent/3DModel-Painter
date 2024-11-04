@@ -21,5 +21,6 @@ The coding workflow followed this basic pattern:
 1. From start to finish I was able to generate this project in about 2 hours.
   - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
 2. I think LLM-based code generation has now reached the point of being truly useful.  Some examples where I think it can be hugely helpful, especially to those of us that do not code for a living:
+    - Refactoring spaghetti code.  I tend to start simple and iterate rapidly on all of my programming projects because I want working code in the shortest amount of time.  Maintainability is not high on my list of priorities; I want to implement my requirement and move on.  Is this painful later when implementing enhancements?  You bet!
     - 
 3. The most remarkable feature of LLM-based code editing is *actually useful* code completion/recommendation.  This is a feature that was promised to be a game-changer 10 years ago but more often than not, got in the way of a programmer's flow.  The current LLM code editor predition and recommendation accuracy capabilities are scary good!
