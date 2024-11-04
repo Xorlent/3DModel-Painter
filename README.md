@@ -14,7 +14,7 @@ The coding workflow followed this basic pattern:
 1. Download the .ZIP file
 2. Extract the .ZIP file to a desired folder.  If you are on Windows, before extracting be sure to right-click the ZIP file, select "Properties" and click "Unblock."
 3. Host the files using a local web server.
-   - On Mac you can just open a terminal window, navigate to the 3D Model Painter folder and type:
+   - On Mac you can just open a terminal window, navigate to the 3D Model Painter folder and type:  
      ```python3 -m http.server 8080```
 4. Open a web browser and navigate to the website.  Example:  http://localhost:8080/index.html
 ## Lessons Learned
