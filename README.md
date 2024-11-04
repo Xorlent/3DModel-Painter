@@ -17,6 +17,12 @@ The coding workflow followed this basic pattern:
    - On Mac you can just open a terminal window, navigate to the 3D Model Painter folder and type:  
      ```python3 -m http.server 8080```
 4. Open a web browser and navigate to the website.  Example:  http://localhost:8080/index.html
+5. Click "Choose file" and select a GLTF 3D model file.
+6. Click and drag to rotate the model.
+7. On the right, select a color or a texture map to begin painting faces of the model.  Once you have a color or texture map selected, click "Toggle Face Paint Mode"
+   - When "Toggle Face Paint Mode" is red, you are painting
+   - When "Toggle Face Paint Mode" is green, you can rotate the model
+9. I included some 3D models to play with.  Texture map files can be any common image file format (PNG, JPG, SVG), repeating patterns are best.
 ## Lessons Learned
 1. From start to finish I was able to generate this project in about 2 hours.
   - I estimate that learning three.js and coding this myself would have taken substantially longer, likely several days.
