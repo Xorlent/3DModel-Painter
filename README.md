@@ -34,4 +34,4 @@ The coding workflow followed this basic pattern:
    - Generating example code for APIs and libraries you need to learn.  I have found the example code to be far superior than what is found on the open web in programming forums.
    - Helping assess sections of code where a persistent bug could benefit from an independent review.
    - Improving error handling and helping to build test cases for existing code.
-3. The most remarkable feature of LLM-based code editing is *actually useful* code completion/recommendation.  This is a feature that was touted as a game-changer 10 years ago but more often than not, got in the way of a programmer's flow.  The current LLM code editor predition and recommendation accuracy capabilities are scary good!
+3. The most remarkable feature of LLM-based code editing is *actually helpful* code completion/recommendation.  This is a feature that was touted as a game-changer 10 years ago but more often than not, got in the way of a programmer's flow.  The current LLM code editor predition and recommendation accuracy capabilities are scary good!
