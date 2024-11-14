@@ -10,7 +10,7 @@ The coding workflow followed this basic pattern:
 3. Clear and repeat the prompt until a satisfactory code scaffold has been built.
 4. Assess the code for errors or problematic behavior and ask the LLM to fix these areas of the application.
 5. Continue to fine-tune the application until the desired outcome has been reached.
-   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over, as this is a good indication that the LLM does not fully understand how to generate the desired outcome.
+   - In my experience if you cannot resolve the issues within about 4 iterations, it is best to start over with a more concise or simplified prompt, as this is a good indication that the LLM does not fully understand how to generate the desired outcome.
 ## Operation
 1. Download the .ZIP file
 2. Extract the .ZIP file to the desired folder.  If you are on Windows, before extracting be sure to right-click the ZIP file, select "Properties" and click "Unblock."
